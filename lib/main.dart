@@ -1,6 +1,4 @@
 import 'package:code_structure/ui/screens/home/category_screen/category_screen.dart';
-import 'package:code_structure/ui/screens/home/home_screen.dart';
-import 'package:code_structure/ui/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
             backgroundColor: Colors.white, foregroundColor: Colors.white),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
